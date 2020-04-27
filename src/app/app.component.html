@@ -1,0 +1,30 @@
+<b><h1>Task 1 </h1> </b>
+<b> "we will observe output in console"</b>
+<div class="row">
+  <div class="m-t-1">
+  	<button class="btn btn-success" (click)="doGET()">GET</button>
+  	<button class="btn btn-success" (click)="doPOST()">POST</button>
+  	<button class="btn btn-success" (click)="doPUT()">PUT</button>
+  	<button class="btn btn-success" (click)="doDELETE()">DELETE</button>
+	</div>
+</div>
+
+<div class="row">
+  <div class="m-t-1">
+  	<button class="btn btn-danger" (click)="doGETAsPromise()">As Promise</button>
+  	<button class="btn btn-danger" (click)="doGETAsPromiseError()">Error as Promise</button>
+  	<button class="btn btn-danger" (click)="doGETAsObservableError()">Error as Observable</button>
+	</div>
+</div>
+
+<div class="row">
+  <div class="m-t-1">
+  	<button class="btn btn-danger" (click)="doGETWithHeaders()">With Headers</button>
+  	
+	</div>
+</div>
+
+
+
+<b><h1>example</h1> </b>
+<app-http-example></app-http-example>
